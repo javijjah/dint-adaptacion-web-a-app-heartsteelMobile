@@ -1,0 +1,403 @@
+{
+  "name": "merch_item",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "38:448",
+    "version": "5025737979",
+    "component-id": "621bb443005cf79bbe691a04154ec83978d8c04a"
+  },
+  "default": "Shop Item=Beanie",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "BeanieRect"
+      },
+      {
+        "type": "text",
+        "id": "SETT BEANIE"
+      },
+      {
+        "type": "image",
+        "id": "BeanieIMG"
+      },
+      {
+        "type": "vector",
+        "id": "EarringsRect"
+      },
+      {
+        "type": "text",
+        "id": "HEARSTEEL EARRINGS"
+      },
+      {
+        "type": "image",
+        "id": "EarringsIMG"
+      },
+      {
+        "type": "vector",
+        "id": "NecklaceRect"
+      },
+      {
+        "type": "text",
+        "id": "HEARSTEEL NECKLACE"
+      },
+      {
+        "type": "image",
+        "id": "NecklaceIMG"
+      }
+    ],
+    "modes": {
+      "Shop Item=Beanie": {
+        "rules": [
+          {
+            "id": "top_level",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "is-structured": "false",
+            "children": [
+              "BeanieRect",
+              "SETT BEANIE",
+              "BeanieIMG"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "BeanieRect",
+            "border-radius": "37.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "beanie_rect.svg"
+          },
+          {
+            "id": "SETT BEANIE",
+            "margin": {
+              "left": "7.2005615234375",
+              "top": "115.0",
+              "right": "8.814437866210938",
+              "bottom": "17.897445678710938"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.1935483870967742",
+              "value": "0.24313725490196078"
+            },
+            "text-content": "SETT BEANIE",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "line-height": "1.3200000762939452",
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "BeanieIMG",
+            "margin": {
+              "left": "22.2005615234375",
+              "top": "3.8974609375",
+              "right": "23.814437866210938",
+              "bottom": "40.99998474121094"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "beanie_img.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Shop Item=Earrings": {
+        "rules": [
+          {
+            "id": "top_level",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "is-structured": "false",
+            "children": [
+              "EarringsRect",
+              "HEARSTEEL EARRINGS",
+              "EarringsIMG"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "EarringsRect",
+            "border-radius": "37.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "13.1025390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "153.01499938964844"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.89744567871094"
+              }
+            },
+            "vector-content": "earrings_rect.svg"
+          },
+          {
+            "id": "HEARSTEEL EARRINGS",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "120.1025390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.1935483870967742",
+              "value": "0.24313725490196078"
+            },
+            "text-content": "HEARSTEEL\nEARRINGS",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "17.0",
+            "line-height": "1.3200000314151539",
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "EarringsIMG",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.1025390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "129.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "129.0"
+              }
+            },
+            "image-content": "earrings_img.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Shop Item=Necklace": {
+        "rules": [
+          {
+            "id": "top_level",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "is-structured": "false",
+            "children": [
+              "NecklaceRect",
+              "HEARSTEEL NECKLACE",
+              "NecklaceIMG"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "NecklaceRect",
+            "border-radius": "37.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.205078125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "153.01499938964844"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.89744567871094"
+              }
+            },
+            "vector-content": "necklace_rect.svg"
+          },
+          {
+            "id": "HEARSTEEL NECKLACE",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "108.205078125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.1935483870967742",
+              "value": "0.24313725490196078"
+            },
+            "text-content": "HEARSTEEL NECKLACE\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "17.0",
+            "line-height": "1.3200000314151539",
+            "typeface": "JetBrains Mono"
+          },
+          {
+            "id": "NecklaceIMG",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "23.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.205078125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "104.0"
+              }
+            },
+            "image-content": "necklace_img.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Shop Item=Beanie",
+      "size": {
+        "width": 153.01499938964844,
+        "height": 155.89744567871094
+      }
+    },
+    {
+      "design": "Shop Item=Earrings",
+      "size": {
+        "width": 153.01499938964844,
+        "height": 155.89744567871094
+      }
+    },
+    {
+      "design": "Shop Item=Necklace",
+      "size": {
+        "width": 153.01499938964844,
+        "height": 155.89744567871094
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

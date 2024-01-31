@@ -1,0 +1,77 @@
+{
+  "name": "big_logo",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "58:152",
+    "version": "5025390903",
+    "component-id": "0f2fd1df18bc4a6f06b27198f92ddf67556b0201"
+  },
+  "default": "BigLogo",
+  "documentation": "3logos aparte",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "mainBigLogo"
+      }
+    ],
+    "modes": {
+      "BigLogo": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "mainBigLogo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "mainBigLogo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "510.7692565917969"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "200.0"
+              }
+            },
+            "image-content": "main_big_logo.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BigLogo",
+      "size": {
+        "width": 510.7692565917969,
+        "height": 200.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

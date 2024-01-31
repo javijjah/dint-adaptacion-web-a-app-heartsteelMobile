@@ -1,0 +1,142 @@
+{
+  "name": "merch_text",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "43:243",
+    "version": "5025737979",
+    "component-id": "ea97aba01e84505b5f5b4c56f2950beff90713a8"
+  },
+  "default": "MerchText",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "MERCH"
+      },
+      {
+        "type": "image",
+        "id": "Orb"
+      },
+      {
+        "type": "image",
+        "id": "LootBag"
+      }
+    ],
+    "modes": {
+      "MerchText": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "MERCH",
+              "Orb",
+              "LootBag"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "MERCH",
+            "margin": {
+              "left": "67.0",
+              "top": "49.0",
+              "right": "64.0",
+              "bottom": "37.0"
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.4980392156862745",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MERCH",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "126.0",
+            "typeface": "Jomhuria"
+          },
+          {
+            "id": "Orb",
+            "margin": {
+              "right": "223.0",
+              "bottom": "57.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "orb.png",
+            "scale": "cover"
+          },
+          {
+            "id": "LootBag",
+            "margin": {
+              "left": "240.0",
+              "top": "74.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "loot_bag.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "MerchText",
+      "size": {
+        "width": 344.0,
+        "height": 178.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

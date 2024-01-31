@@ -1,0 +1,85 @@
+{
+  "name": "splash_screen_text",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "50:146",
+    "version": "5026017404",
+    "component-id": "4d16c042befe4d3aea130f670ef537040ee2ab6a"
+  },
+  "default": "SplashScreenText",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Say hi to your new favorite band."
+      }
+    ],
+    "modes": {
+      "SplashScreenText": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Say hi to your new favorite band."
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Say hi to your new favorite band.",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "326.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Say hi to your new favorite band.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "70.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "SplashScreenText",
+      "size": {
+        "width": 326.0,
+        "height": 128.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

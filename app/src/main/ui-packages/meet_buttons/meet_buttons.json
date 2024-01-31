@@ -1,0 +1,507 @@
+{
+  "name": "meet_buttons",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "52:256",
+    "version": "5025737979",
+    "component-id": "816c54a9df95153519099c090cf15d72b31a9e11"
+  },
+  "default": "Property 1=Ezreal",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "EzrealButtonIMG"
+      },
+      {
+        "type": "text",
+        "id": "Ezreal"
+      },
+      {
+        "type": "text",
+        "id": "Aphelios"
+      },
+      {
+        "type": "image",
+        "id": "ApheliosButtonIMG"
+      },
+      {
+        "type": "image",
+        "id": "SettButtonIMG"
+      },
+      {
+        "type": "text",
+        "id": "Sett"
+      },
+      {
+        "type": "image",
+        "id": "KaynButtonIMG"
+      },
+      {
+        "type": "text",
+        "id": "Kayn"
+      },
+      {
+        "type": "image",
+        "id": "YoneButtonIMG"
+      },
+      {
+        "type": "text",
+        "id": "Yone"
+      },
+      {
+        "type": "image",
+        "id": "KsanteButtonIMG"
+      },
+      {
+        "type": "text",
+        "id": "K’sante"
+      }
+    ],
+    "modes": {
+      "Property 1=Ezreal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "EzrealButtonIMG",
+              "Ezreal"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "EzrealButtonIMG",
+            "margin": {
+              "bottom": "27.0"
+            },
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "ezreal_button_img.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Ezreal",
+            "margin": {
+              "left": "33.0",
+              "top": "121.0",
+              "right": "32.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Ezreal",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      },
+      "Property 1=Aphelios": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Aphelios",
+              "ApheliosButtonIMG"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Aphelios",
+            "margin": {
+              "left": "20.0",
+              "top": "125.0",
+              "right": "19.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Aphelios",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "typeface": "Jomhuria"
+          },
+          {
+            "id": "ApheliosButtonIMG",
+            "margin": {
+              "bottom": "27.0"
+            },
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "aphelios_button_img.png",
+            "scale": "fill"
+          }
+        ]
+      },
+      "Property 1=Sett": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "SettButtonIMG",
+              "Sett"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "SettButtonIMG",
+            "margin": {
+              "bottom": "27.0"
+            },
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "sett_button_img.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Sett",
+            "margin": {
+              "left": "42.0",
+              "top": "121.0",
+              "right": "42.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Sett",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      },
+      "Property 1=Kayn": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "KaynButtonIMG",
+              "Kayn"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "KaynButtonIMG",
+            "margin": {
+              "bottom": "27.0"
+            },
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "kayn_button_img.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Kayn",
+            "margin": {
+              "left": "37.0",
+              "top": "120.0",
+              "right": "37.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Kayn",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      },
+      "Property 1=Yone": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "YoneButtonIMG",
+              "Yone"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "YoneButtonIMG",
+            "margin": {
+              "bottom": "27.0"
+            },
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "yone_button_img.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Yone",
+            "margin": {
+              "left": "32.0",
+              "top": "122.0",
+              "right": "39.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Yone",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      },
+      "Property 1=Ksante": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "KsanteButtonIMG",
+              "K’sante"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "KsanteButtonIMG",
+            "margin": {
+              "bottom": "27.0"
+            },
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "ksante_button_img.png",
+            "scale": "cover"
+          },
+          {
+            "id": "K’sante",
+            "margin": {
+              "left": "23.0",
+              "top": "125.0",
+              "right": "22.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "K’sante",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Ezreal",
+      "size": {
+        "width": 125.0,
+        "height": 152.0
+      }
+    },
+    {
+      "design": "Property 1=Aphelios",
+      "size": {
+        "width": 125.0,
+        "height": 152.0
+      }
+    },
+    {
+      "design": "Property 1=Sett",
+      "size": {
+        "width": 125.0,
+        "height": 152.0
+      }
+    },
+    {
+      "design": "Property 1=Kayn",
+      "size": {
+        "width": 125.0,
+        "height": 152.0
+      }
+    },
+    {
+      "design": "Property 1=Yone",
+      "size": {
+        "width": 125.0,
+        "height": 152.0
+      }
+    },
+    {
+      "design": "Property 1=Ksante",
+      "size": {
+        "width": 125.0,
+        "height": 152.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

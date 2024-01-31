@@ -1,0 +1,129 @@
+{
+  "name": "main_screen_logos",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "46:262",
+    "version": "5025737979",
+    "component-id": "2086a4b2e3b09a73efc01a2e61d8b2f024950c3d"
+  },
+  "default": "MainScreen Logos",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Welcome to"
+      },
+      {
+        "type": "image",
+        "id": "main logo"
+      },
+      {
+        "type": "image",
+        "id": "face logos"
+      }
+    ],
+    "modes": {
+      "MainScreen Logos": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Welcome to",
+              "main logo",
+              "face logos"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Welcome to",
+            "margin": {
+              "left": "137.0",
+              "right": "137.0",
+              "bottom": "183.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Welcome to",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "70.0",
+            "typeface": "Jomhuria"
+          },
+          {
+            "id": "main logo",
+            "margin": {
+              "top": "35.0",
+              "bottom": "34.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "main_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "face logos",
+            "margin": {
+              "left": "42.0",
+              "top": "173.0",
+              "right": "43.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "face_logos.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "MainScreen Logos",
+      "size": {
+        "width": 498.0,
+        "height": 241.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

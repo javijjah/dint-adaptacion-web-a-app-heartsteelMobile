@@ -1,0 +1,86 @@
+{
+  "name": "meet_description",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "50:197",
+    "version": "5025737979",
+    "component-id": "3f33364efc69556c3e5680bbd132cff9a339021d"
+  },
+  "default": "MeetDescription",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "The sensible one"
+      }
+    ],
+    "modes": {
+      "MeetDescription": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "The sensible one"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "The sensible one",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Subtitle",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "90.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Subtitle": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "MeetDescription",
+      "size": {
+        "width": 368.0,
+        "height": 80.0
+      },
+      "parameters": {
+        "Subtitle": "The sensible one"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

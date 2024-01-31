@@ -1,0 +1,523 @@
+{
+  "name": "contacts",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "50:208",
+    "version": "5025737979",
+    "component-id": "c3d234f0ddf63f9471b133f33bb2fe206d8b3f8a"
+  },
+  "default": "Property 1=email",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "emailRect"
+      },
+      {
+        "type": "text",
+        "id": "support@riotgames.com(email)"
+      },
+      {
+        "type": "image",
+        "id": "emailLogo"
+      },
+      {
+        "type": "vector",
+        "id": "igRect"
+      },
+      {
+        "type": "image",
+        "id": "igLogo"
+      },
+      {
+        "type": "text",
+        "id": "@leagueoflegends(ig)"
+      },
+      {
+        "type": "vector",
+        "id": "xRect"
+      },
+      {
+        "type": "text",
+        "id": "@LeagueOfLegends(x)"
+      },
+      {
+        "type": "image",
+        "id": "xLogo"
+      },
+      {
+        "type": "vector",
+        "id": "ttrect"
+      },
+      {
+        "type": "image",
+        "id": "ttLogo"
+      },
+      {
+        "type": "text",
+        "id": "@leagueoflegends(tt)"
+      }
+    ],
+    "modes": {
+      "Property 1=email": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "emailRect",
+              "support@riotgames.com(email)",
+              "emailLogo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "emailRect",
+            "margin": {
+              "right": "1.0"
+            },
+            "border-radius": "100.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "1.0",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_rect.svg"
+          },
+          {
+            "id": "support@riotgames.com(email)",
+            "margin": {
+              "left": "45.0",
+              "top": "10.0",
+              "bottom": "10.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "support@riotgames.com",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "25.0",
+            "typeface": "JejuMyeongjo"
+          },
+          {
+            "id": "emailLogo",
+            "margin": {
+              "left": "16.0",
+              "top": "6.0",
+              "right": "283.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "email_logo.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Instagram": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "igRect",
+              "igLogo",
+              "@leagueoflegends(ig)"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "igRect",
+            "margin": {
+              "left": "4.0"
+            },
+            "border-radius": "100.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "1.0",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "ig_rect.svg"
+          },
+          {
+            "id": "igLogo",
+            "margin": {
+              "top": "3.0",
+              "right": "262.0",
+              "bottom": "5.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "ig_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "@leagueoflegends(ig)",
+            "margin": {
+              "left": "67.0",
+              "top": "10.0",
+              "right": "32.0",
+              "bottom": "10.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "@leagueoflegends",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "25.0",
+            "typeface": "JejuMyeongjo"
+          }
+        ]
+      },
+      "Property 1=Twitter": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "xRect",
+              "@LeagueOfLegends(x)",
+              "xLogo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "xRect",
+            "border-radius": "100.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "1.0",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "vector-content": "x_rect.svg"
+          },
+          {
+            "id": "@LeagueOfLegends(x)",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "65.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "224.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "@LeagueOfLegends",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "25.0",
+            "typeface": "JejuMyeongjo"
+          },
+          {
+            "id": "xLogo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "image-content": "x_logo.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Tiktok": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ttrect",
+              "ttLogo",
+              "@leagueoflegends(tt)"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ttrect",
+            "border-radius": "100.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "336.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "vector-content": "ttrect.svg"
+          },
+          {
+            "id": "ttLogo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "5.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "image-content": "tt_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "@leagueoflegends(tt)",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "68.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "213.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "@leagueoflegends",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "25.0",
+            "typeface": "JejuMyeongjo"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=email",
+      "size": {
+        "width": 337.0,
+        "height": 50.0
+      }
+    },
+    {
+      "design": "Property 1=Instagram",
+      "size": {
+        "width": 337.0,
+        "height": 50.0
+      }
+    },
+    {
+      "design": "Property 1=Twitter",
+      "size": {
+        "width": 337.0,
+        "height": 50.0
+      }
+    },
+    {
+      "design": "Property 1=Tiktok",
+      "size": {
+        "width": 337.0,
+        "height": 50.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,143 @@
+{
+  "name": "button_base_primary_hower",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "50:190",
+    "version": "5025737979",
+    "component-id": "fe863e24fd8dfa103b13f23ebd530cbe4879e1f7"
+  },
+  "default": "ButtonBase  /Primary / Hower",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "ButtonBase  /Primary / Hower"
+      },
+      {
+        "type": "group",
+        "id": "Base Button"
+      },
+      {
+        "type": "text",
+        "id": "SKIP"
+      }
+    ],
+    "modes": {
+      "ButtonBase  /Primary / Hower": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ButtonBase  /Primary / Hower"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ButtonBase  /Primary / Hower",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.2",
+                "hue": "52.40506329113924",
+                "saturation": "0.9916317991631799",
+                "value": "0.9372549019607843"
+              },
+              "blur": "5.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "118.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Base Button",
+              "SKIP"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Base Button",
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "SKIP",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "89.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Log in",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "50.0",
+            "letter-spacing": "0.75",
+            "line-height": "0.32",
+            "typeface": "Jomhuria",
+            "case": "upper"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "ButtonBase  /Primary / Hower",
+      "size": {
+        "width": 118.0,
+        "height": 40.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

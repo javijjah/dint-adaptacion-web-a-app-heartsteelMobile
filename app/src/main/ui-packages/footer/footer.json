@@ -1,0 +1,180 @@
+{
+  "name": "footer",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "51:255",
+    "version": "5025737979",
+    "component-id": "a596da7a5863a7b0f629dc96a7b1c3c5e4f2286a"
+  },
+  "default": "Footer",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "CopyRight Footer"
+      },
+      {
+        "type": "image",
+        "id": "HeartsteelLogos"
+      },
+      {
+        "type": "image",
+        "id": "LoLLogo"
+      },
+      {
+        "type": "text",
+        "id": "This app is in no way associated with League of Legends or Riot Games. It’s a school work and it just serves the purpose of showing an acquired academic skill."
+      },
+      {
+        "type": "image",
+        "id": "RiotLogo"
+      }
+    ],
+    "modes": {
+      "Footer": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "CopyRight Footer",
+              "HeartsteelLogos",
+              "LoLLogo",
+              "This app is in no way associated with League of Legends or Riot Games. It’s a school work and it just serves the purpose of showing an acquired academic skill.",
+              "RiotLogo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CopyRight Footer",
+            "margin": {
+              "left": "22.0",
+              "right": "22.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "copy_right_footer.svg"
+          },
+          {
+            "id": "HeartsteelLogos",
+            "margin": {
+              "left": "156.0",
+              "top": "42.0",
+              "right": "157.0",
+              "bottom": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "heartsteel_logos.png",
+            "scale": "cover"
+          },
+          {
+            "id": "LoLLogo",
+            "margin": {
+              "left": "330.0",
+              "top": "36.0",
+              "right": "48.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "lo_llogo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "This app is in no way associated with League of Legends or Riot Games. It’s a school work and it just serves the purpose of showing an acquired academic skill.",
+            "margin": {
+              "top": "8.0",
+              "bottom": "52.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "This app is in no way associated with League of Legends or Riot Games.\nIt’s a school work and it just serves the purpose of showing an acquired academic skill.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "11.0",
+            "typeface": "JejuMyeongjo"
+          },
+          {
+            "id": "RiotLogo",
+            "margin": {
+              "left": "45.0",
+              "top": "40.0",
+              "right": "322.0",
+              "bottom": "10.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "riot_logo.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Footer",
+      "size": {
+        "width": 474.0,
+        "height": 80.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

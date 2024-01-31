@@ -1,0 +1,85 @@
+{
+  "name": "welcometo_comp",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "58:154",
+    "version": "5025389240",
+    "component-id": "2c8c856bce20f57e202545c988ffca1c22de5b79"
+  },
+  "default": "WelcometoComp",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "WelcomeToInitial"
+      }
+    ],
+    "modes": {
+      "WelcometoComp": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "WelcomeToInitial"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "WelcomeToInitial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "224.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Welcome to",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "70.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "WelcometoComp",
+      "size": {
+        "width": 224.0,
+        "height": 58.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

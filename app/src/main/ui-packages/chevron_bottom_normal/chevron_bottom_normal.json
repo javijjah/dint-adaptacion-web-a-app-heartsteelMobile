@@ -1,0 +1,75 @@
+{
+  "name": "chevron_bottom_normal",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "2:140",
+    "version": "5025539300",
+    "component-id": "e2cbabe3fa6590ab3bb93365a534ccfe03cc8b59"
+  },
+  "default": "chevron-bottom-normal",
+  "documentation": "All packages in one",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "union-1"
+      }
+    ],
+    "modes": {
+      "chevron-bottom-normal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "union-1"
+            ]
+          },
+          {
+            "id": "union-1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.33333396911621094"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-57.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "63.33333206176758"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "vector-content": "union_1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "chevron-bottom-normal",
+      "size": {
+        "width": 152.0,
+        "height": 152.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

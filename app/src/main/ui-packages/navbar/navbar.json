@@ -1,0 +1,1180 @@
+{
+  "name": "navbar",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "43:160",
+    "version": "5026017404",
+    "component-id": "e7a0633a4b09e2b0f3ffcfd250a54653796b3505"
+  },
+  "default": "OnScreen=Email",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "navbarRect"
+      },
+      {
+        "type": "vector",
+        "id": "HomeIcon"
+      },
+      {
+        "type": "vector",
+        "id": "UserIcon"
+      },
+      {
+        "type": "vector",
+        "id": "CartIcon"
+      },
+      {
+        "type": "vector",
+        "id": "EmailIcon"
+      },
+      {
+        "type": "vector",
+        "id": "MusicIcon"
+      }
+    ],
+    "modes": {
+      "OnScreen=Email": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "navbarRect",
+              "HomeIcon",
+              "UserIcon",
+              "CartIcon",
+              "EmailIcon",
+              "MusicIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "navbarRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "navbar_rect.svg"
+          },
+          {
+            "id": "HomeIcon",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "380.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "home_icon.svg"
+          },
+          {
+            "id": "UserIcon",
+            "margin": {
+              "left": "110.0",
+              "top": "16.0",
+              "right": "290.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "user_icon.svg"
+          },
+          {
+            "id": "CartIcon",
+            "margin": {
+              "left": "290.0",
+              "top": "16.0",
+              "right": "110.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cart_icon.svg"
+          },
+          {
+            "id": "EmailIcon",
+            "margin": {
+              "left": "380.0",
+              "top": "21.0",
+              "right": "20.0",
+              "bottom": "15.666666030883789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_icon.svg"
+          },
+          {
+            "id": "MusicIcon",
+            "margin": {
+              "left": "200.0",
+              "top": "16.0",
+              "right": "200.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "music_icon.svg"
+          }
+        ]
+      },
+      "OnScreen=Cart": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "navbarRect",
+              "HomeIcon",
+              "UserIcon",
+              "CartIcon",
+              "EmailIcon",
+              "MusicIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "navbarRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "navbar_rect1.svg"
+          },
+          {
+            "id": "HomeIcon",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "380.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "home_icon1.svg"
+          },
+          {
+            "id": "UserIcon",
+            "margin": {
+              "left": "110.0",
+              "top": "16.0",
+              "right": "290.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "user_icon1.svg"
+          },
+          {
+            "id": "CartIcon",
+            "margin": {
+              "left": "290.0",
+              "top": "16.0",
+              "right": "110.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cart_icon1.svg"
+          },
+          {
+            "id": "EmailIcon",
+            "margin": {
+              "left": "380.0",
+              "top": "21.0",
+              "right": "20.0",
+              "bottom": "15.666666030883789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_icon1.svg"
+          },
+          {
+            "id": "MusicIcon",
+            "margin": {
+              "left": "200.0",
+              "top": "16.0",
+              "right": "200.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "music_icon1.svg"
+          }
+        ]
+      },
+      "OnScreen=Music": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "navbarRect",
+              "HomeIcon",
+              "UserIcon",
+              "CartIcon",
+              "EmailIcon",
+              "MusicIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "navbarRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "navbar_rect2.svg"
+          },
+          {
+            "id": "HomeIcon",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "380.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "home_icon2.svg"
+          },
+          {
+            "id": "UserIcon",
+            "margin": {
+              "left": "110.0",
+              "top": "16.0",
+              "right": "290.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "user_icon2.svg"
+          },
+          {
+            "id": "CartIcon",
+            "margin": {
+              "left": "290.0",
+              "top": "16.0",
+              "right": "110.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cart_icon2.svg"
+          },
+          {
+            "id": "EmailIcon",
+            "margin": {
+              "left": "380.0",
+              "top": "21.0",
+              "right": "20.0",
+              "bottom": "15.666666030883789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_icon2.svg"
+          },
+          {
+            "id": "MusicIcon",
+            "margin": {
+              "left": "200.0",
+              "top": "16.0",
+              "right": "200.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "music_icon2.svg"
+          }
+        ]
+      },
+      "OnScreen=User": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "navbarRect",
+              "HomeIcon",
+              "UserIcon",
+              "CartIcon",
+              "EmailIcon",
+              "MusicIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "navbarRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "navbar_rect3.svg"
+          },
+          {
+            "id": "HomeIcon",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "380.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "home_icon3.svg"
+          },
+          {
+            "id": "UserIcon",
+            "margin": {
+              "left": "110.0",
+              "top": "16.0",
+              "right": "290.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "user_icon3.svg"
+          },
+          {
+            "id": "CartIcon",
+            "margin": {
+              "left": "290.0",
+              "top": "16.0",
+              "right": "110.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cart_icon3.svg"
+          },
+          {
+            "id": "EmailIcon",
+            "margin": {
+              "left": "380.0",
+              "top": "21.0",
+              "right": "20.0",
+              "bottom": "15.666666030883789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_icon3.svg"
+          },
+          {
+            "id": "MusicIcon",
+            "margin": {
+              "left": "200.0",
+              "top": "16.0",
+              "right": "200.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "music_icon3.svg"
+          }
+        ]
+      },
+      "OnScreen=Home": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "navbarRect",
+              "HomeIcon",
+              "UserIcon",
+              "CartIcon",
+              "EmailIcon",
+              "MusicIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "navbarRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "navbar_rect4.svg"
+          },
+          {
+            "id": "HomeIcon",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "380.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "home_icon4.svg"
+          },
+          {
+            "id": "UserIcon",
+            "margin": {
+              "left": "110.0",
+              "top": "16.0",
+              "right": "290.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "user_icon4.svg"
+          },
+          {
+            "id": "CartIcon",
+            "margin": {
+              "left": "290.0",
+              "top": "16.0",
+              "right": "110.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cart_icon4.svg"
+          },
+          {
+            "id": "EmailIcon",
+            "margin": {
+              "left": "380.0",
+              "top": "21.0",
+              "right": "20.0",
+              "bottom": "15.666666030883789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_icon4.svg"
+          },
+          {
+            "id": "MusicIcon",
+            "margin": {
+              "left": "200.0",
+              "top": "16.0",
+              "right": "200.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "music_icon4.svg"
+          }
+        ]
+      },
+      "OnScreen=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "navbarRect",
+              "HomeIcon",
+              "UserIcon",
+              "CartIcon",
+              "EmailIcon",
+              "MusicIcon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "navbarRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "navbar_rect5.svg"
+          },
+          {
+            "id": "HomeIcon",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "380.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "home_icon5.svg"
+          },
+          {
+            "id": "UserIcon",
+            "margin": {
+              "left": "110.0",
+              "top": "16.0",
+              "right": "290.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "user_icon5.svg"
+          },
+          {
+            "id": "CartIcon",
+            "margin": {
+              "left": "290.0",
+              "top": "16.0",
+              "right": "110.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cart_icon5.svg"
+          },
+          {
+            "id": "EmailIcon",
+            "margin": {
+              "left": "380.0",
+              "top": "21.0",
+              "right": "20.0",
+              "bottom": "15.666666030883789"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "email_icon5.svg"
+          },
+          {
+            "id": "MusicIcon",
+            "margin": {
+              "left": "200.0",
+              "top": "16.0",
+              "right": "200.0",
+              "bottom": "14.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "music_icon5.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "OnScreen=Email",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    },
+    {
+      "design": "OnScreen=Cart",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    },
+    {
+      "design": "OnScreen=Music",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    },
+    {
+      "design": "OnScreen=User",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    },
+    {
+      "design": "OnScreen=Home",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    },
+    {
+      "design": "OnScreen=Default",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

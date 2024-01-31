@@ -1,0 +1,88 @@
+{
+  "name": "contact_main_text",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "50:202",
+    "version": "5025737979",
+    "component-id": "35cce7b15aa6844e20dc0543d75d49c77c0dc255"
+  },
+  "default": "ContactMainText",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Follow us!"
+      }
+    ],
+    "modes": {
+      "ContactMainText": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Follow us!"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Follow us!",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.4980392156862745",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Follow us!",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "150.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "ContactMainText",
+      "size": {
+        "width": 444.0,
+        "height": 119.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

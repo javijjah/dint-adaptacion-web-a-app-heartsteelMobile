@@ -1,0 +1,99 @@
+{
+  "name": "meet_title",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DHIuUtXiDNL97ItiuH6yH4",
+    "node": "50:196",
+    "version": "5025737979",
+    "component-id": "98fe48e8ac9e7abbc6e81b387b56a612eacd8033"
+  },
+  "default": "MeetTitle",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "K'sante"
+      }
+    ],
+    "modes": {
+      "MeetTitle": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "K'sante"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "K'sante",
+            "drop-shadow": {
+              "color": {
+                "alpha": "1.0",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "200.0",
+            "typeface": "Jomhuria"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Title": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "MeetTitle",
+      "size": {
+        "width": 368.0,
+        "height": 152.0
+      },
+      "parameters": {
+        "Title": "K'sante"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
