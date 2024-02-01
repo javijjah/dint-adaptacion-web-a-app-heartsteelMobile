@@ -10,6 +10,7 @@ import androidx.compose.ui.draw.paint
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.hachatml.hearsteelmobile.NavbarMioHome
 import com.hachatml.hearsteelmobile.NavbarMioMusic
 import com.hachatml.hearsteelmobile.R
@@ -18,7 +19,7 @@ import com.hachatml.hearsteelmobile.exportedComponents.YoutubeScreen
 import com.hachatml.hearsteelmobile.mvouttext.MvoutText
 
 @Composable
-fun MusicScreen() {
+fun MusicScreen(navController: NavController) {
     Column(
         modifier = Modifier.paint(
             painterResource(id = R.drawable.hsmv),
@@ -35,6 +36,6 @@ fun MusicScreen() {
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioMusic()
+        NavbarMioMusic(navController)
     }
 }

@@ -9,16 +9,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.navigation.NavController
+import com.hachatml.hearsteelmobile.navhost.Routes
 
-@Preview
 @Composable
-fun NavbarMioDefault(){
+fun NavbarMioDefault(navController: NavController){
     Row(modifier = Modifier
         .fillMaxWidth()
         .height(60.dp)
@@ -26,16 +28,15 @@ fun NavbarMioDefault(){
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo")
-        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo")
-        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo")
-        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo")
-        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo")
+        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo",modifier = Modifier.clickable {navController.navigate(Routes.SplashScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo",modifier = Modifier.clickable {navController.navigate(Routes.MeetTheBoysScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo",modifier = Modifier.clickable {navController.navigate(Routes.MusicScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo",modifier = Modifier.clickable {navController.navigate(Routes.MerchScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo",modifier = Modifier.clickable {navController.navigate(Routes.ContactScreen.route)})
     }
 }
-@Preview
 @Composable
-fun NavbarMioHome(){    //todo navbar funcional
+fun NavbarMioHome(navController: NavController){
     Row(modifier = Modifier
         .fillMaxWidth()
         .height(60.dp)
@@ -43,14 +44,14 @@ fun NavbarMioHome(){    //todo navbar funcional
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        Image(painter = painterResource(id = R.drawable.navbar_home_icon4), contentDescription = "Home logo")
-        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo")
-        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo")
-        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo")
-        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo")
+        Image(painter = painterResource(id = R.drawable.navbar_home_icon4), contentDescription = "Home logo",modifier = Modifier.clickable {navController.navigate(Routes.SplashScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo",modifier = Modifier.clickable {navController.navigate(Routes.MeetTheBoysScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo",modifier = Modifier.clickable {navController.navigate(Routes.MusicScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo",modifier = Modifier.clickable {navController.navigate(Routes.MerchScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo",modifier = Modifier.clickable {navController.navigate(Routes.ContactScreen.route)})
     }
 }@Composable
-fun NavbarMioUser(){
+fun NavbarMioUser(navController: NavController){
     Row(modifier = Modifier
         .fillMaxWidth()
         .height(60.dp)
@@ -58,14 +59,14 @@ fun NavbarMioUser(){
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo")
-        Image(painter = painterResource(id = R.drawable.navbar_user_icon3), contentDescription = "User logo")
-        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo")
-        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo")
-        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo")
+        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo",modifier = Modifier.clickable {navController.navigate(Routes.SplashScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_user_icon3), contentDescription = "User logo",modifier = Modifier.clickable {navController.navigate(Routes.MeetTheBoysScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo",modifier = Modifier.clickable {navController.navigate(Routes.MusicScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo",modifier = Modifier.clickable {navController.navigate(Routes.MerchScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo",modifier = Modifier.clickable {navController.navigate(Routes.ContactScreen.route)})
     }
 }@Composable
-fun NavbarMioMusic(){
+fun NavbarMioMusic(navController: NavController){
     Row(modifier = Modifier
         .fillMaxWidth()
         .height(60.dp)
@@ -73,14 +74,14 @@ fun NavbarMioMusic(){
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo")
-        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo")
-        Image(painter = painterResource(id = R.drawable.navbar_music_icon2), contentDescription = "Music logo")
-        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo")
-        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo")
+        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo",modifier = Modifier.clickable {navController.navigate(Routes.SplashScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo",modifier = Modifier.clickable {navController.navigate(Routes.MeetTheBoysScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_music_icon2), contentDescription = "Music logo",modifier = Modifier.clickable {navController.navigate(Routes.MusicScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo",modifier = Modifier.clickable {navController.navigate(Routes.MerchScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo",modifier = Modifier.clickable {navController.navigate(Routes.ContactScreen.route)})
     }
 }@Composable
-fun NavbarMioCart(){
+fun NavbarMioCart(navController: NavController){
     Row(modifier = Modifier
         .fillMaxWidth()
         .height(60.dp)
@@ -88,14 +89,14 @@ fun NavbarMioCart(){
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo")
-        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo")
-        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo")
-        Image(painter = painterResource(id = R.drawable.navbar_cart_icon1), contentDescription = "Cart logo")
-        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo")
+        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo",modifier = Modifier.clickable {navController.navigate(Routes.SplashScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo",modifier = Modifier.clickable {navController.navigate(Routes.MeetTheBoysScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo",modifier = Modifier.clickable {navController.navigate(Routes.MusicScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_cart_icon1), contentDescription = "Cart logo",modifier = Modifier.clickable {navController.navigate(Routes.MerchScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_email_icon1), contentDescription = "Email logo",modifier = Modifier.clickable {navController.navigate(Routes.ContactScreen.route)})
     }
 }@Composable
-fun NavbarMioEmail(){
+fun NavbarMioEmail(navController: NavController){
     Row(modifier = Modifier
         .fillMaxWidth()
         .height(60.dp)
@@ -103,10 +104,10 @@ fun NavbarMioEmail(){
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ){
-        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo")
-        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo")
-        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo")
-        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo")
-        Image(painter = painterResource(id = R.drawable.navbar_email_icon), contentDescription = "Email logo")
+        Image(painter = painterResource(id = R.drawable.navbar_home_icon), contentDescription = "Home logo",modifier = Modifier.clickable {navController.navigate(Routes.SplashScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_user_icon), contentDescription = "User logo",modifier = Modifier.clickable {navController.navigate(Routes.MeetTheBoysScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_music_icon), contentDescription = "Music logo",modifier = Modifier.clickable {navController.navigate(Routes.MusicScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_cart_icon), contentDescription = "Cart logo",modifier = Modifier.clickable {navController.navigate(Routes.MerchScreen.route)})
+        Image(painter = painterResource(id = R.drawable.navbar_email_icon), contentDescription = "Email logo",modifier = Modifier.clickable {navController.navigate(Routes.ContactScreen.route)})
     }
 }

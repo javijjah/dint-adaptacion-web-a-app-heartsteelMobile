@@ -14,6 +14,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.hachatml.hearsteelmobile.NavbarMioDefault
 import com.hachatml.hearsteelmobile.NavbarMioHome
 import com.hachatml.hearsteelmobile.R
@@ -22,9 +23,8 @@ import com.hachatml.hearsteelmobile.exportedComponents.*
 import com.hachatml.hearsteelmobile.splashscreentext.SplashScreenText
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
-@Preview(device = Devices.PIXEL_3)
 @Composable
-fun SplashScreen() {
+fun SplashScreen(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -44,13 +44,13 @@ fun SplashScreen() {
             verticalArrangement = Arrangement.Bottom,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            NavbarMioHome()
+            NavbarMioHome(navController)
         }
     }
     Column(
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioHome()
+        NavbarMioHome(navController)
     }
 }

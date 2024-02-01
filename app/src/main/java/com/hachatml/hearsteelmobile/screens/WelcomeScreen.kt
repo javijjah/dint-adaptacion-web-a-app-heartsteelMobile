@@ -19,16 +19,17 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.hachatml.hearsteelmobile.R
 import com.hachatml.hearsteelmobile.biglogo.BigLogo
 import com.hachatml.hearsteelmobile.chevronbottomnormal.ChevronBottomNormal
+import com.hachatml.hearsteelmobile.exportedComponents.ChevronBottomNormalMio
 import com.hachatml.hearsteelmobile.facefirst.FaceFirst
 import com.hachatml.hearsteelmobile.mainscreenlogos.MainScreenLogos
 import com.hachatml.hearsteelmobile.mainscreenlogos.WelcomeTo
 
-@Preview(device = Devices.PIXEL_3)
 @Composable
-fun WelcomeScreen() {
+fun WelcomeScreen(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -50,7 +51,7 @@ fun WelcomeScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ){
             //todo animar esto
-            ChevronBottomNormal(modifier = Modifier.size(100.dp,100.dp))
+            ChevronBottomNormalMio(modifier = Modifier.size(100.dp,100.dp),navController)
         }
     }
 }

@@ -11,6 +11,7 @@ import androidx.compose.ui.draw.paint
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.hachatml.hearsteelmobile.NavbarMioHome
 import com.hachatml.hearsteelmobile.NavbarMioUser
 import com.hachatml.hearsteelmobile.R
@@ -18,7 +19,7 @@ import com.hachatml.hearsteelmobile.exportedComponents.MeetTextMio
 import com.hachatml.hearsteelmobile.exportedComponents.Subtitle
 
 @Composable
-fun KsanteMeetScreen(){
+fun KsanteMeetScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -41,11 +42,11 @@ fun KsanteMeetScreen(){
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioUser()
+        NavbarMioUser(navController)
     }
 }
 @Composable
-fun KaynMeetScreen(){
+fun KaynMeetScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -68,10 +69,10 @@ fun KaynMeetScreen(){
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioUser()
+        NavbarMioUser(navController)
     }
 }@Composable
-fun SettMeetScreen(){
+fun SettMeetScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -94,11 +95,11 @@ fun SettMeetScreen(){
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioUser()
+        NavbarMioUser(navController)
     }
 }
 @Composable
-fun YoneMeetScreen(){
+fun YoneMeetScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -121,11 +122,11 @@ fun YoneMeetScreen(){
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioUser()
+        NavbarMioUser(navController)
     }
 }
 @Composable
-fun EzrealMeetScreen(){
+fun EzrealMeetScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -148,11 +149,11 @@ fun EzrealMeetScreen(){
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioUser()
+        NavbarMioUser(navController)
     }
 }
 @Composable
-fun ApheliosMeetScreen(){
+fun ApheliosMeetScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -175,6 +176,6 @@ fun ApheliosMeetScreen(){
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        NavbarMioUser()
+        NavbarMioUser(navController)
     }
 }
