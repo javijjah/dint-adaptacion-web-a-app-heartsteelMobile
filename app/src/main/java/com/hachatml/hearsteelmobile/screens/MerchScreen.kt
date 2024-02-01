@@ -1,5 +1,6 @@
 package com.hachatml.hearsteelmobile.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
@@ -32,7 +34,6 @@ import com.hachatml.hearsteelmobile.merchtext.MERCH
 import com.hachatml.hearsteelmobile.merchtext.MerchText
 
 
-@Preview(device = Devices.PIXEL_3)
 @Composable
 fun MerchScreen(navController: NavController) {
     Column(
@@ -53,16 +54,20 @@ fun MerchScreen(navController: NavController) {
             verticalAlignment = Alignment.Top,
             horizontalArrangement = Arrangement.Center
         ) {
-            MerchText(modifier = Modifier.size(344.dp,178.dp))
+            MerchText(modifier = Modifier.size(344.dp, 178.dp))
         }
         RelayColumn(
-            modifier = Modifier.size(500.dp,700.dp),
+            modifier = Modifier.size(500.dp, 700.dp),
             verticalArrangement = Arrangement.SpaceEvenly,
             horizontalAlignment = Alignment.CenterHorizontally
-        ){
-            MerchItem(modifier = Modifier.size(153.dp,155.dp))
-            MerchItem(modifier = Modifier.size(153.dp,155.dp), shopItem = ShopItem.Earrings)
-            MerchItem(modifier = Modifier.size(153.dp,155.dp), shopItem = ShopItem.Necklace)
+        ) {
+            var uriHandler = LocalUriHandler.current
+            MerchItem(
+                modifier = Modifier
+                    .size(153.dp, 155.dp)
+                    .clickable { uriHandler.openUri("https://merch.riotgames.com/en-us/product/heartsteel-sett-beanie/") })
+            MerchItem(modifier = Modifier.size(153.dp, 155.dp).clickable { uriHandler.openUri("https://merch.riotgames.com/en-sg/product/heartsteel-earrings/") }, shopItem = ShopItem.Earrings)
+            MerchItem(modifier = Modifier.size(153.dp, 155.dp).clickable { uriHandler.openUri("https://merch.riotgames.com/en-sg/product/heartsteel-necklace/") }, shopItem = ShopItem.Necklace)
         }
     }
     Column(
